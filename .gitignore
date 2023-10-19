@@ -1,0 +1,39 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore environment files
+.env
+
+# Ignore any local build artifacts
+build/
+dist/
+
+# Ignore pytest cache and temporary files
+__pycache__/
+.pytest_cache/
+.pytest_cache/*
+pytestdebug.log
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore IDE/Editor specific files and directories
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore any log files
+*.log
+
+# Ignore user-specific configuration files
+*.ini
+
+# Ignore any local history files
+.history/
